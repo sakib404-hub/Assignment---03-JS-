@@ -1,9 +1,3 @@
-// Problem - 01  Divide the Asset
-
-var area = 2060;
-var assetEachBrother = area / 2; //logic for finding what each brother will get
-console.log(assetEachBrother);
-
 // Problem - 02  Cycle or  Laptop
 
 var money = 45000;
@@ -15,5 +9,3 @@ if (money < 10000) {
 } else if (money >= 25000) {
   console.log("Laptop");
 }
-
-// Problem 03 - Medicine Planner
