@@ -27,3 +27,16 @@ for (var day = 1; day <= lastDay; day++) {
     console.log(day, "- rest");
   }
 }
+
+// Problem 04 - Delete / Store
+var fileName = "slipdf.txt";
+
+var extension = fileName.split(".").pop();
+
+if (fileName[0] === "#") {
+  console.log("Store");
+} else if (extension === "pdf" || extension === "docx") {
+  console.log("Store");
+} else {
+  console.log("Delete");
+}
